@@ -9,9 +9,10 @@ let y = Number(prompt('> '));
 
 
 while(x % y !== 0){
-
-    x+=1; 
-
+    if(x % y !== 0){
+    console.log(x); 
+    }
+    x+=1;
 }
 
 console.log(`${x} is divisible by ${y}`)
